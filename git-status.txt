@@ -1,9 +1,0 @@
-Exibe a condição da árvore de trabalho
-
-Exibe os caminhos que têm diferenças entre o arquivo do índice e o commit atual no HEAD,
-os caminhos que têm diferenças entre a árvore de trabalho e o arquivo do índice,
-os caminhos na árvore de trabalho que não são rastreados pelo Git 
-(e não foram ignorados pelo gitignore[5]). 
-O primeiro é o que você confirmaria executando o comando git commit;
-o segundo e o terceiro são os que você pode confirmar, executando o comando git add 
-antes de executar o comando git commit.
