@@ -1,7 +1,0 @@
-git add .adiciona todos os arquivos modificados e novos (não rastreados) no diretório atual e todos os subdiretórios para a área de teste (também conhecido como índice), preparando-os para serem incluídos no próximo git commit.
-
-Quaisquer arquivos que correspondam aos padrões do .gitignorearquivo serão ignorados por git add.
-
-Se você quiser pular a git add .etapa, pode apenas adicionar o -asinalizador git commit(embora isso inclua todos os arquivos modificados, não apenas nos subdiretórios atuais e nos subdiretórios).
-
-Observe que git add .não fará nada com os arquivos excluídos. Para incluir exclusões no índice (e o comming commit) você precisa fazergit add -A
