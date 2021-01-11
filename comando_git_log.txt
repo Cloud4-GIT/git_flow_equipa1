@@ -1,0 +1,3 @@
+Comando git log
+
+O comando git log serve para verificar todos commits feitos anteriormente.
