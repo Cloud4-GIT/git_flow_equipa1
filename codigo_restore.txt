@@ -1,8 +1,0 @@
-git-restore - Restaurar arquivos de árvore de trabalho
-
-Descrição
-Restaurar caminhos especificados na árvore de trabalho com algum conteúdo de uma fonte de restauração. Se um caminho for rastreado, mas não existir na fonte de restauração, ele será removido para corresponder à fonte.
-
-O comando também pode ser usado para restaurar o conteúdo no índice com , ou restaurar tanto a árvore de trabalho quanto o índice com .--staged--staged --worktree
-
-Por padrão, se for dado, o conteúdo é restaurado de , caso contrário, do índice. Use para restaurar de um compromisso diferente.--stagedHEAD--source
