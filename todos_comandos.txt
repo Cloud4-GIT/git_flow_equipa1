@@ -1,0 +1,37 @@
+git Status
+
+Exibe a condição da árvore de trabalho
+
+Exibe os caminhos que têm diferenças entre o arquivo do índice e o commit atual no HEAD,
+os caminhos que têm diferenças entre a árvore de trabalho e o arquivo do índice,
+os caminhos na árvore de trabalho que não são rastreados pelo Git 
+(e não foram ignorados pelo gitignore[5]). 
+O primeiro é o que você confirmaria executando o comando git commit;
+o segundo e o terceiro são os que você pode confirmar, executando o comando git add 
+antes de executar o comando git commit.
+-------------------------------------------------------------------------------------
+Git Merge
+Git merge <branchname> <outra_branch> - Fazer merge de uma branch para outra branch
+-------------------------------------------------------------------------------------
+Git Add
+git add .adiciona todos os arquivos modificados e novos (não rastreados) no diretório atual e todos os subdiretórios para a área de teste (também conhecido como índice), preparando-os para serem incluídos no próximo git commit.
+
+Quaisquer arquivos que correspondam aos padrões do .gitignorearquivo serão ignorados por git add.
+
+Se você quiser pular a git add .etapa, pode apenas adicionar o -asinalizador git commit(embora isso inclua todos os arquivos modificados, não apenas nos subdiretórios atuais e nos subdiretórios).
+
+Observe que git add .não fará nada com os arquivos excluídos. Para incluir exclusões no índice (e o comming commit) você precisa fazergit add -A
+-------------------------------------------------------------------------------------
+Comando git log
+
+O comando git log serve para verificar todos commits feitos anteriormente.
+-------------------------------------------------------------------------------------
+git-restore - Restaurar arquivos de árvore de trabalho
+
+Descrição
+Restaurar caminhos especificados na árvore de trabalho com algum conteúdo de uma fonte de restauração. Se um caminho for rastreado, mas não existir na fonte de restauração, ele será removido para corresponder à fonte.
+
+O comando também pode ser usado para restaurar o conteúdo no índice com , ou restaurar tanto a árvore de trabalho quanto o índice com .--staged--staged --worktree
+
+Por padrão, se for dado, o conteúdo é restaurado de , caso contrário, do índice. Use para restaurar de um compromisso diferente.--stagedHEAD--source
+
